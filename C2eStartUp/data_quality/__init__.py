@@ -1,1 +1,0 @@
-git remote add origin https://github.com/robbin517/C2E-startUp.git
