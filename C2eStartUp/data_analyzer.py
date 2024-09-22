@@ -1,4 +1,9 @@
 def analyze_data_general(data):
+
+    if data is None:
+        print("数据集为空")
+        return None
+
     analysis_results = {}
     numeric_columns = data.select_dtypes(include='number').columns
     for col in numeric_columns:
