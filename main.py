@@ -45,7 +45,7 @@ def process(file_path):
 
 def main():
     #file_path = 'test.xlsx' ## FE EXCEL API
-    file_path = r'C:\Users\Administrator\Desktop\Project\C2Ev2\NeuroViz\test.xlsx'
+    file_path = 'test.xlsx'
 
     # 处理数据
     result,img_path,report_structured = process(file_path) ## process API
